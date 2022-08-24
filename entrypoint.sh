@@ -3,6 +3,11 @@
 configParam=""
 volumeParam=""
 
+echo "INPUT_CONFIG: $INPUT_CONFIG"
+echo "INPUT_PORT: $INPUT_PORT"
+echo "INPUT_INNER_PORT: $INPUT_INNER_PORT"
+echo "INPUT_VERSION: $INPUT_VERSION"
+
 if [ ! -n "$INPUT_CONFIG" ]; then
   echo "Config empty, use default config to start TiDB"
 else
