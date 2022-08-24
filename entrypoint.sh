@@ -1,8 +1,7 @@
 #!/bin/sh
 
 configParam=""
-
-if [ -n "${INPUT_CONFIG}" ]; then
+if [ ! -n "$INPUT_CONFIG" ]; then
   echo "Config empty, use default config to start TiDB"
 else
 	echo "Release config to 'tidb.yaml'"
