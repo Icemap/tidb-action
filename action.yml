@@ -1,0 +1,26 @@
+name: 'Setup TiDB'
+description: 'Setup a TiDB database'
+author: 'Icemap'
+branding:
+  icon: 'database'
+  color: 'red'
+inputs:
+  port:
+    description: 'Port of TiDB'
+    required: false
+    default: 4000
+  version:
+    description: 'Version of TiDB'
+    required: false
+    default: 'v6.2.0'
+  config:
+    description: 'Config content of TiDB'
+    required: false
+    default: ''
+  inner port:
+    description: 'Container inner port of TiDB'
+    required: false
+    default: 4000
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
