@@ -17,4 +17,4 @@ else
 	volumeParam="-v ${PWD}/tidb.yaml:/tidb.yaml"
 fi
 
-sh -c "docker run ${volumeParam} -p ${INPUT_PORT}:${INPUT_INNER_PORT} pingcap/tidb:${INPUT_VERSION} ${configParam}"
+sh -c "docker run -d ${volumeParam} -p ${INPUT_PORT}:${INPUT_INNER_PORT} pingcap/tidb:${INPUT_VERSION} ${configParam}"
