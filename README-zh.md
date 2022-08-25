@@ -5,6 +5,7 @@
 ## 说明
 
 - 这是一个非官方的 [GitHub Action](https://github.com/features/actions), 使用 Docker 部署一个 TiDB。
+- 这个 Action 仅用于测试，如果你希望部署一个 TiDB 集群，请看[这里](https://docs.pingcap.com/zh/tidb/stable/production-deployment-using-tiup)。
 - 这个库基于 [mirromutth/mysql-action](https://github.com/mirromutth/mysql-action) 开发。
 
 ## 使用方法

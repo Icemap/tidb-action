@@ -5,6 +5,7 @@ English | [中文](/README-zh.md)
 ## Description
 
 - This is an unofficial [GitHub Action](https://github.com/features/actions), using Docker to deploy a TiDB.
+- This action only for test. If you want a formal cluster TiDB, please see [here](https://docs.pingcap.com/tidb/stable/production-deployment-using-tiup).
 - This library is developed based on [mirromutth/mysql-action](https://github.com/mirromutth/mysql-action).
 
 ## How to use
