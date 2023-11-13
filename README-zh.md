@@ -14,14 +14,14 @@
 
 ```yaml
 steps:
-- uses: Icemap/tidb-action@v1.0
+- uses: Icemap/tidb-action@v1.1
 ```
 
 全部配置：
 
 ```yaml
 steps:
-- uses: Icemap/tidb-action@v1.0
+- uses: Icemap/tidb-action@v1.1
   with:
     port: 4001 # 可选，默认为 4000，TiDB 将要运行的端口
     version: "v7.1.0" # 可选，默认为 v7.1.0，TiDB 运行的版本
