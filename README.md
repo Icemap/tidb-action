@@ -14,14 +14,14 @@ Minimal configuration:
 
 ```yaml
 steps:
-- uses: Icemap/tidb-action@v1.0
+- uses: Icemap/tidb-action@v1.1
 ```
 
 Full configuration:
 
 ```yaml
 steps:
-- uses: Icemap/tidb-action@v1.0
+- uses: Icemap/tidb-action@v1.1
   with:
     port: 4001 # Optional, default is 4000, the port on which TiDB will run
     version: "v7.2.0" # Optional, default is v7.1.0, the version TiDB is running
