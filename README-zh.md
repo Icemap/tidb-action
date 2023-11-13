@@ -24,7 +24,7 @@ steps:
 - uses: Icemap/tidb-action@v1.0
   with:
     port: 4001 # 可选，默认为 4000，TiDB 将要运行的端口
-    version: "v6.1.0" # 可选，默认为 v6.2.0，TiDB 运行的版本
+    version: "v7.1.0" # 可选，默认为 v7.1.0，TiDB 运行的版本
     config: |
 [tikv-client.async-commit]
 safe-window = 0
