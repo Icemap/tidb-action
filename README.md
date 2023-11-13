@@ -24,7 +24,7 @@ steps:
 - uses: Icemap/tidb-action@v1.0
   with:
     port: 4001 # Optional, default is 4000, the port on which TiDB will run
-    version: "v6.1.0" # Optional, default is v6.2.0, the version TiDB is running
+    version: "v7.2.0" # Optional, default is v7.1.0, the version TiDB is running
     config: |
 [tikv-client.async-commit]
 safe-window = 0
